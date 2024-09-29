@@ -6,6 +6,8 @@ jobs:
     steps: 
       - name: print greeting 
         run: echo "Welcome to GitHub Actions"
+      - name: create file
+        run: touch file1
       - name: display files
         run: ls -ltr
       - name: print Bye
